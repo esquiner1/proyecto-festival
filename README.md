@@ -1,5 +1,5 @@
 # proyecto-festival
-Mi primer proye 
+Mi primer proyecto 
 Este proyecto maneja un archivo de node-modules donde se encuentra  en git ignores, es ncesario que lo descargue
 para el optimo funcionamiento del proyecto. Es solo necesario parase en el archivo general y aplicar el siguiente comando
 
