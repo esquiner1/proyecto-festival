@@ -1,0 +1,35 @@
+@mixin nuevoMixin ($transform,$size){ 
+    font-size: $size;
+    text-transform:$transform;
+}
+@mixin telefono{
+    @media (min-width:$telefono){
+        @content;
+        
+    }
+}
+@mixin tablet{
+    @media (min-width:$tablet){
+        @content;
+        
+    }
+    
+}
+@mixin max-tablet{
+    @media (max-width:$tablet){
+        @content;
+        
+    }
+}
+@mixin desktop{
+    @media (min-width:$desktop){
+        @content;
+        
+    }
+}
+@mixin grid($columnas, $separado){
+display: grid;
+grid-template-columns: repeat($columnas, 1fr);
+gap: $separado;
+}
+

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1> Rock & EDM Festival</h1>
+            <nav class="navegacion-Principal">
+                <a href="#lineup" class="">Line Up</a>
+                <a href="#galeria" class="">Galeria</a>
+                <a href="#boletos" class="">Boletos</a>
+            </nav>
+        </div>
+    </header>
+    <div class="video">
+        <div class="encima">
+            <div class="contenedor contenido-video">
+                <h2>
+                    Rock & EDM Festival 
+                    <span>Julio 2021, Guadalajara, Mexico</span>
+                </h2>
+            </div>
+        </div>
+        <video controls autoplay muted loop> <!--contorls: le da el poder de controlar el video. autoplay: se inicia una vez cargada la pagina. muted: lo mutea. loop: una vez terminado el video lo reinicia-->
+            <source src="video/concierto.mp4" type="video/mp4" >
+            <source src="video/concierto.ogg" type="video/ogg" >
+            <source src="video/concierto.webm" type="videp/webm" >
+        </video>
+    </div>
+    <div class="vocalista contenedor">
+        <div class="imagen">
+          <img src="build/img/imagen_vocalista.jpg" alt="imagen_vocalista">  
+        </div>
+        
+        <div class="contenido-vocalista">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">Julio 2021 Guadalajara, Mexico</p>
+            
+            <p class="texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vel, 
+                odit omnis labore iure eveniet rerum nesciunt doloribus deserunt? 
+                Reprehenderit, incidunt ut magnam possimus a deleniti molestiae beatae impedit rerum.
+            </p>
+        </div>
+    </div>
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>    
+        <p class="dia">Viernes 21</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo ">
+                <p class="nombre-escenario">Escenario Rock</p>
+                    <ul class="calendario">
+                        <li>24:00 | <span>Metallica</span></li>
+                        <li>22:00 | <span>Paerl Jam</span></li>
+                        <li>20:00 | <span>Korn</span></li>
+                        <li>19:00 | <span>Muse</span></li>
+                        <li>18:00 | <span>Breaking Nenjamin</span></li>
+                        <li>17:00 | <span>30 Second</span></li>
+                    </ul>
+            </div>
+            <div class="escenario edm bg-verde ">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Deadmau5</span></li>
+                    <li>22:00 | <span>Tiësto</span></li>
+                    <li>20:00 | <span>Haerwell</span></li>
+                    <li>19:00 | <span>Dash Berlin</span></li>
+                    <li>18:00 | <span>Fedde Legrand</span></li>
+                    <li>17:00 | <span>Audien</span></li>
+                </ul>
+            </div>
+        </div>
+        <p class="dia">Sabado 22</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde ">
+                <p class="nombre-escenario">Escenario Rock</p>
+                    <ul class="calendario">
+                        <li>24:00 | <span>Metallica</span></li>
+                        <li>22:00 | <span>Paerl Jam</span></li>
+                        <li>20:00 | <span>Korn</span></li>
+                        <li>19:00 | <span>Muse</span></li>
+                        <li>18:00 | <span>Breaking Nenjamin</span></li>
+                        <li>17:00 | <span>30 Second</span></li>
+                    </ul>
+            </div>
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Deadmau5</span></li>
+                    <li>22:00 | <span>Tiësto</span></li>
+                    <li>20:00 | <span>Haerwell</span></li>
+                    <li>19:00 | <span>Dash Berlin</span></li>
+                    <li>18:00 | <span>Fedde Legrand</span></li>
+                    <li>17:00 | <span>Audien</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galeria</h3>
+        <ul class="galeria-imagenes">
+    
+        </ul>
+
+    </section> 
+
+    <section  id="boletos" class="boletos btn bg-verde" >
+        <h3>Boletos</h3>
+        <div class="contenedor-boletos contenedor">
+            <div class="basico">
+                <p>Pase 1 Dia</p>
+                
+                <table class="pase">
+                    <thead> <!--parte superior--><!-- descripcion-->
+                        <tr><!--Table row (una celda en la tabla !siempre tiene que ir )  -->
+                            <th>
+                                incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody> <!--parte del cuerpo--><!--informacion-->
+                        <tr><!--ocupa toda una linea-->
+                            <td>
+                                Acceso a todos los Escenarios 
+                            </td>
+                            <tr>
+                                <td>
+                                    Comida y bebida
+                                </td>
+                            </tr>
+                        </tr>
+                    </tbody>
+                    <tfoot><!--parte inferior de la tabla--><!--notas extras-->
+                        <tr>
+                            <td> $100 </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="premium">
+                <p>Pase 2 Dias</p>
+
+                <table class="pase">
+                    <thead> <!--parte superior--><!-- descripcion-->
+                        <tr><!--Table row (una celda en la tabla !siempre tiene que ir )  -->
+                            <th>
+                                incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody> <!--parte del cuerpo--><!--informacion-->
+                        <tr><!--ocupa toda una linea-->
+                            <td>
+                                Acceso a todos los Escenarios 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            Comida y bebida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            Camisa del evento
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            Acceso VIP
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot><!--parte inferior de la tabla--><!--notas extras-->
+                        <tr>
+                            <td> $100 </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Rock & EDM Festival. todos los rederchos reservados</p>
+    </footer>
+    
+<script src="build/js/bundle.min.js"></script>
+</body>
+</html>
